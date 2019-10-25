@@ -1,0 +1,16 @@
+.ulLink {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.ulLink a{ 
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.ulLink a.active{ 
+    text-decoration: none;
+    padding-right: 10px;
+    color: green
+}
